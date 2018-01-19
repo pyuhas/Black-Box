@@ -1,0 +1,36 @@
+body {
+  font-family: 'Pragati Narrow', sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  height: 80vh;
+}
+
+img {
+  height: 400px;
+  width: 500px;
+}
+
+.opened {
+  display: none;
+}
+
+button {
+  padding: 20px;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 160%;
+  background-color: black;
+  margin-left: 40%;
+  border-radius: 15px;
+
+}
+
+a:link, a:visited {
+  text-decoration:none;
+  color: white;
+}
