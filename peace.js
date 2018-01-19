@@ -32,7 +32,11 @@ fetch(url, {
 }).then(function (data) {
     console.log('got here');
       
-    quote.innerHTML="this will be quote";
+    var yourFortune = ["You learn from your mistakes... you'll learn a lot today", "Open your mind to good things", "Deal.", "Quit your whining.", "Get back on that horse, bum.", "I see you on that couch.", "Hey maybe go outside today.", "Land is always on the mind of the flying bird. Until it hits a window.", "You must try. Or don't."]
+    
+    var randomNum = Math.floor(Math.random()*yourFortune.length);
+
+    quote.innerHTML=yourFortune[randomNum];
     
 });
 
